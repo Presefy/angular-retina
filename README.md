@@ -47,6 +47,13 @@ angular.module('MyAwesomeModule', [...other dependencies..., 'ngRetina']);
 <img ng-src="{{image_url}}" width="100" height="100">
 ```
 
++ you can also specify retina file's name with ng-src2x attribute
+```html
+<img ng-src="/path/to/image.png" ng-src2x="/path/to/retinaimage.png" width="100" height="100">
+```
+
+
+
 Just use it in your HTML-code as you would use the common AngularJS directive
 [ngSrc](http://docs.angularjs.org/api/ng.directive:ngSrc):
 
