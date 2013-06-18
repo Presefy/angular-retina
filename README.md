@@ -48,6 +48,8 @@ angular.module('MyAwesomeModule', [...other dependencies..., 'ngRetina']);
 ```
 
 + you can also specify retina file's name with ng-src2x attribute
+
+>
 ```html
 <img ng-src="/path/to/image.png" ng-src2x="/path/to/retinaimage.png" width="100" height="100">
 ```
